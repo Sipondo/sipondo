@@ -12,7 +12,7 @@ As a researcher I am part of the [RAD (Resource-Aware Data Science) team](https:
 
 ## Research Interests
 
-- **Machine Learning Systems:** green AI, image classification, training optimisation
+- **Machine Learning Systems:** green AI, image classification, training optimisation, data loading, data selection
 - **High Performance Computing:** machine learning acceleration, CUDA, opencl
 
 <!-- ## News
