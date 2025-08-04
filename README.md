@@ -1,163 +1,75 @@
-# The Minimal Light Theme
+# academic-homepage
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+![Preview](assets/images/etc/preview.png)
 
-\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
- 
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
-<br>
-*Feel free to use and share the source code anywhere you like.*
+[![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
+[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)](https://validator.nu/?doc=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)
+[![Hits](https://hits.sh/github.com/luost26/academic-homepage.svg?view=today-total)](https://hits.sh/github.com/luost26/academic-homepage/)
+[![GitHub stars](https://img.shields.io/github/stars/luost26/academic-homepage)](https://github.com/luost26/academic-homepage)
+[![GitHub forks](https://img.shields.io/github/forks/luost26/academic-homepage)](https://github.com/luost26/academic-homepage/forks)
+<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluost26%2Facademic-homepage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
 
-The latest version of my homepage is available here: [[link](https://github.com/yaoyao-liu/yaoyao-liu.github.io)]
-<br>
-A template for Max Planck Institute for Informatics is available here: [[link](https://github.com/yaoyao-liu/minimal-light-theme-mpi-inf)]
+A GitHub Pages (Jekyll) template for personal academic website. Click [here](https://luost.me/academic-homepage/) to see the demo.
 
-## Features
+## User Community
 
-- Simple and elegant personal homepage theme
-- Jekyll theme, automatically deployed by GitHub Pages
-- Basic search engine optimization
-- Mobile friendly
-- Supporting Markdown 
-- Supporting dark mode
+[🏡](https://luost.me/)
+[:star:](https://cch1999.github.io/)
+[:star:](https://kyrrego.github.io/)
+[:star:](https://ced3-han.github.io/)
+[:star:](https://lihengchen.com/)
+[:star:](https://hpwang-whu.github.io/)
+[:star:](https://zhang-yingyi.github.io/)
+[:star:](https://wby24.github.io/)
+[:star:](https://pengfeixu.com/)
+[:star:](https://boqiuphd.github.io/)
+[:star:](https://www.huabing.li/)
+[:star:](https://xiecuiying.github.io/)
+[:star:](https://hannyang.github.io/)
+[:star:](https://king-play.github.io/)
+[🤖](https://andrewcwlee.github.io)
+[:star:](https://laiyao1.github.io)
+[🌜](https://tmsultan.github.io)
+[🚀](https://zaxguo.github.io)
+[:gemini:](https://hongyang-du.github.io)
+[🇻‍🇳](https://thuanz123.github.io)
+[🧬](https://gdalba.github.io/)
 
-## Project Architecture
+:hugs: Feel free to tell us if you are using this template for your website by creating an issue [here](https://github.com/luost26/academic-homepage/issues/new?assignees=&labels=&projects=&template=user-report.md&title=I+am+using+this+template%21).
 
-```
-.
-├── _includes                    
-|   ├── publications.md          # the Markdown file for publications
-|   └── services.md              # the Markdown file for services
-├── _layouts                  
-|   └── homepage.html            #  the html template for the homepage 
-├── _sass                     
-|   └── minimal-light.scss       #  this file will be compiled into a CSS file to control the style of the page
-├── assets                       #  some files
-├── .gitignore                   #  this file specifies intentionally untracked files that Git should ignore
-├── CNAME                        #  the custom domain, will be used by GitHub page sevice
-├── Gemfile                      #  a RubyGems related file
-├── LICENSE                      #  the license file
-├── README.md                    #  the readme file (English)
-├── README_de.md                 #  the readme file (German)
-├── README_zh_Hans.md            #  the readme file (Simplified Chinese)
-├── README_zh_Hant.md            #  the readme file (Traditional Chinese)
-├── _config.yml                  #  the Jekyll configuration file, including some options of the page  
-└── index.md                     #  the content of the index page, using Markdown
-```
+
+## Need Help?
+
+If you run into **any** issues while using this template, or have suggestions for improvements, please don't hesitate to create an issue [here](https://github.com/luost26/academic-homepage/issues/new).
+
+### FAQs
+- [Need blogging feature?](https://github.com/luost26/academic-homepage/issues/13#issuecomment-2646371324)
+
 
 ## Getting Started
 
-This template can be used in the following two ways: 
-- **Using with the GitHub Pages Service.** GitHub will provide you with a server to generate and host web pages.
-- **Using locally with Jekyll.** You may install Jekyll on your own computer and generate static web pages (i.e., HTML files) with this template. After that, you may upload the HTML files to your server.
+1. First, fork this repository or click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
+   - If you plan to customize the functionality or style of the template, and do not want to get updates from this repository, choose "Use this template".
+   - If you plan to only edit the content (biography, publications, news, etc.), and would like to get updates from this repository, choose "Fork".
+   - If you want to contribute to this project, fork the repository and submit a pull request.
 
-The detailed instructions are available below.
+### Running Locally (Debug & Preview)
 
+2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
 
-### Using with the GitHub Pages Service
+3. Clone your forked repository to your local machine.
 
-There are two ways to use this template on GitHub:
+4. Run the following command in the root directory of the repository:
 
-#### Fork this repository
-- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-- Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+5. Browse to the displayed URL to see the website.
 
-#### Using this repository as a remote theme
-To use this theme, add the following to your repository's `_config.yml`:
+### Deploying to GitHub Pages
 
-```yaml
-remote_theme: yaoyao-liu/minimal-light
-```
+2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
-Please note that adding the above line will directly apply all the default settings in this repository to yours.
+3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
 
-If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
-
-### Using Locally with Jekyll
-
-First, install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/). The install instructions can be found here: <https://jekyllrb.com/docs/installation/#guides>
-
-Then, clone this repository:
-
-```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
-cd minimal-light
-```
-Install and run:
-
-```bash
-bundle install
-bundle exec jekyll server
-```
-View the live page using `localhost`:
-<http://localhost:4000>. You can get the HTML files in `_site` folder.
-
-## Customizing
-
-### Configuration variables
-
-The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
-
-  ```yaml
-# Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
-
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
-
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: files/Curriculum_Vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
-
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-  ```
-### Edit `index.md`
-
-Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
-
-### Edit included files
-
-There are two markdown files included in `index.md`. They are `_includes/publications.md` and `_includes/service.md`, respectively. These two files also support **Markdown** and **HTML** syntax. If you don't hope to include these two files, you may remove the following lines in `index.md`:
-https://github.com/yaoyao-liu/minimal-light/blob/b38070cd0b6bce45d8a885f3828549af8f82b7cb/index.md?plain=1#L21-L23
-
-
-### Stylesheet
-
-If you'd like to add your own custom styles, you may edit `_sass/minimal-light.scss`.
-
-### Layouts
-
-If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.html`.
-
-## License
-
-This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
-
-## Acknowledgements
-
-Our project uses the source code from the following repositories:
-
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
-
-* [al-folio](https://github.com/alshedivat/al-folio)

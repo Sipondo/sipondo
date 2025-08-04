@@ -1,44 +1,40 @@
-# Basic Information
-title: Ties Robroek
-position: Postdoctoral Researcher
-affiliation: IT University of Copenhagen
-email: titr (at) itu.dk / inquiries (at) trobroek.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: research machine learning training pytorch nvidia gpu cuda resource awareness energy
-description: Ties Robroek is a postdoc working on improving awareness on the resource consumption of training deep learning models.
-canonical: https://trobroek.com
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
 
-# Links
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=kCPSPq8AAAAJ
-# cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/Sipondo/
-linkedin: https://www.linkedin.com/in/ties-robroek-0b5683b9/
-# twitter: https://twitter.com/
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
 
-# Images (e.g., your profile picture and your website's favicon)
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+# timezone: Asia/Shanghai
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
-
-# The following files will be removed from the generated website.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
-  - LICENSE
-  - minimal-light.gemspec
+collections:
+  - publications
+  - news
+  - showcase
