@@ -16,7 +16,16 @@ authors:
   - Neil Kim Nielsen
   - Pınar Tözün
 links:
-  Bib: /academic-homepage/assets/bib/modyn.bib
   Code: https://github.com/itu-rad/tensorsocket
   Preprint: https://arxiv.org/abs/2409.18749
+bibkey:  "Bother2025Modyn"
+bibauthor: "{B\\\"{o}ther, Maximilian and Robroek, Ties and Gsteiger, Viktor and Ma, Xianzhe and T\\\"{o}z\\\"{u}n, P{\\i}nar and Klimovic, Ana}"
+bibtitle: "{Modyn: Data-Centric Machine Learning Pipeline Orchestration}"
+bibbooktitle: "{Proceedings of the Conference on Management of Data (SIGMOD)}"
+bibyear: "{2025}"
+bibdoi: "{10.1145/3709705}"
+biburl: "{https://dl.acm.org/doi/10.1145/3709705}"
+
+
+
 ---

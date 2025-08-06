@@ -15,6 +15,7 @@
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                <button onclick="bibToggle('{{item.id}}')">[Bib]</button>
                 {% for link in item.links %}
                 {% if link[1].url %}
                 <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
@@ -23,7 +24,18 @@
                 {% endif %}
                 {% endfor %}
             </p>
-
+            
+            <div class="bibtex hidden" id="bibblock_{{ item.id }}">
+                <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">{{item.bibkey}}</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">{{item.bibauthor}}</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">{{item.bibtitle}}</span><span class="p">,</span>
+    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{{item.bibbooktitle}}</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">{{item.bibyear}}</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">{{item.bibdoi}}</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">{{item.biburl}}</span><span class="p">,</span>
+    <span class="p">}</span></code></pre>
+                </figure>
+            </div>
         </div>
     </div>
 </div>

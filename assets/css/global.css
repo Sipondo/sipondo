@@ -90,3 +90,54 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.hidden {
+    font-size: 0.875rem;
+    max-height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    transition-property: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+
+    p {
+        line-height: 1.4em;
+        margin: 10px;
+    }
+
+    pre {
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 10px;
+    }
+}
+
+.hidden.open {
+    max-height: 100em;
+    transition-property: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.highlight {
+    background-color: rgba(181, 9, 172, 0.05);
+}
+button {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
