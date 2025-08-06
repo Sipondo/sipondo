@@ -10,14 +10,17 @@ pub_date:       "2025"
 
 abstract: >-
   Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/tensorsocket_logo_card.png
+cover:          /assets/images/covers/modyn_logo_card.png
 authors:
+  - Maximilian Böther
   - Ties Robroek
-  - Neil Kim Nielsen
+  - Viktor Gsteiger
+  - Xianzhe Ma
   - Pınar Tözün
+  - Ana Klimovic
 links:
-  Code: https://github.com/itu-rad/tensorsocket
-  Preprint: https://arxiv.org/abs/2409.18749
+  Code: https://github.com/eth-easl/modyn
+  Preprint: https://arxiv.org/abs/2312.06254
 bibkey:  "Bother2025Modyn"
 bibauthor: "{B\\\"{o}ther, Maximilian and Robroek, Ties and Gsteiger, Viktor and Ma, Xianzhe and T\\\"{o}z\\\"{u}n, P{\\i}nar and Klimovic, Ana}"
 bibtitle: "{Modyn: Data-Centric Machine Learning Pipeline Orchestration}"
