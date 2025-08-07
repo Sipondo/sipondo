@@ -21,6 +21,16 @@ function bibToggle(num) {
   }
 }
 
+function abstractToggle(num) {
+  var x = document.getElementById("abstractblock_" + num);
+  if (x.classList.contains("open")) {
+    x.classList.remove("open");// = "bibtex hidden";
+}else{
+    x.classList.add("open");// = "bibtex hidden open";
+  }
+}
+
+
 // from: https://stackoverflow.com/questions/35297919/javascript-select-all-text-inside-a-pre-code-block-on-double-click
 window.onload = function(){
 

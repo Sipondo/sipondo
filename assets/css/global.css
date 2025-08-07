@@ -91,7 +91,7 @@ div.lazy {
 }
 
 .hidden {
-    font-size: 0.875rem;
+    /* font-size: 0.875rem; */
     max-height: 0px;
     overflow: hidden;
     text-align: justify;
@@ -107,7 +107,7 @@ div.lazy {
     }
 
     pre {
-        font-size: 1em;
+        font-size: 0.8em;
         line-height: 1.4em;
         padding: 10px;
     }
