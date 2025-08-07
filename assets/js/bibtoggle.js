@@ -5,6 +5,10 @@ function bibToggle(num) {
     x.classList.remove("open");// = "bibtex hidden";
 }else{
     x.classList.add("open");// = "bibtex hidden open";
+    var y = document.getElementById("abstractblock_" + num);
+    if (y.classList.contains("open")) {
+        y.classList.remove("open");// = "bibtex hidden";
+    }
 
     // from: https://stackoverflow.com/questions/35297919/javascript-select-all-text-inside-a-pre-code-block-on-double-click
     if (document.body.createTextRange) {
@@ -27,6 +31,10 @@ function abstractToggle(num) {
     x.classList.remove("open");// = "bibtex hidden";
 }else{
     x.classList.add("open");// = "bibtex hidden open";
+    var y = document.getElementById("bibblock_" + num);
+    if (y.classList.contains("open")) {
+        y.classList.remove("open");// = "bibtex hidden";
+    }
   }
 }
 
