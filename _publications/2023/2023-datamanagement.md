@@ -17,7 +17,9 @@ authors:
   - Ehsan Yousefzadeh-Asl-Miandoab
   - Pınar Tözün
 links:
+  Code: https://github.com/itu-rad/radt
   Paper: https://dl.acm.org/doi/10.1145/3595360.3595851
+  Preprint: https://pure.itu.dk/en/publications/data-management-and-visualization-for-benchmarking-deep-learning-
 bibkey:  "Robroek2023DataManagement"
 bibauthor: "Robroek, Ties and Duane, Aaron and Yousefzadeh-Asl-Miandoab, Ehsan and T\\\"{o}z\\\"{u}n, P{\\i}nar}"
 bibtitle: "{Data Management and Visualization for Benchmarking Deep Learning Training Systems}"
