@@ -1,28 +1,28 @@
 ---
 title:          "Profiling and Monitoring Deep Learning Training Tasks"
-date:           2023-03-31 00:01:00 +0800
+date:           2023-05-08 00:01:00 +0800
 selected:       false
-pub:            "International Workshop on Testing Distributed Internet of Things Systems (TDIS)"
+pub:            "European Workshop on Machine Learning and Systems (EuroMLSys)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Best Presentation</span>'
 pub_date:       "2023"
 
 abstract: >-
-  Machine learning (ML) benchmarks are crucial for evaluating the performance, efficiency, and scalability of ML systems, especially as the adoption of complex ML pipelines, such as retrieval-augmented generation (RAG), continues to grow. These pipelines introduce intricate execution graphs that require more advanced benchmarking approaches. Additionally, collocating workloads can improve resource efficiency but may introduce contention challenges that must be carefully managed. Detailed insights into resource utilization are necessary for effective collocation and optimized edge deployments. However, existing benchmarking frameworks often fail to capture these critical aspects.
-  We introduce a modular end-to-end ML benchmarking framework designed to address these gaps. Our framework emphasizes modularity and reusability by enabling reusable pipeline stages, facilitating flexible benchmarking across diverse ML workflows. It supports complex workloads and measures their end-to-end performance. The workloads can be collocated, with the framework providing insights into resource utilization and contention between the concurrent workloads.
+  The embarrassingly parallel nature of deep learning training tasks makes CPU-GPU co-processors the primary commodity hardware for them. The computing and memory requirements of these tasks, however, do not always align well with the available GPU resources. It is, therefore, important to monitor and profile the behavior of training tasks on co-processors to understand better the requirements of different use cases. In this paper, our goal is to shed more light on the variety of tools for profiling and monitoring deep learning training tasks on server-grade NVIDIA GPUs. In addition to surveying the main characteristics of the tools, we analyze the functional limitations and overheads of each tool by using a both light and heavy training scenario. Our results show that monitoring tools like nvidia-smi and dcgm can be integrated with resource managers for online decision making thanks to their low overheads. On the other hand, one has to be careful about the set of metrics to correctly reason about the GPU utilization. When it comes to profiling, each tool has its time to shine; a framework-based or system-wide GPU profiler can first detect the frequent kernels or bottlenecks, and then, a lower-level GPU profiler can focus on particular kernels at the micro-architectural-level.
 cover:          /assets/images/covers/rad_logo_card.png
 authors:
-  - Robert Bayer
+  - Ehsan Yousefzadeh-Asl-Miandoab
   - Ties Robroek
   - Pınar Tözün
 links:
-  Paper: https://dl.acm.org/doi/10.1145/3719159.3721223
-bibkey:  "Bayer2025TowardsModular"
-bibauthor: "{Bayer, Robert and Robroek, Ties and T\\\"{o}z\\\"{u}n, P{\\i}nar}"
-bibtitle: "{Towards A Modular End-To-End Machine Learning Benchmarking Framework}"
-bibbooktitle: "{Proceedings of the 3rd International Workshop on Testing Distributed Internet of Things Systems (TDIS)}"
+  Paper: https://dl.acm.org/doi/10.1145/3578356.3592589
+  Preprint: https://itu-dasyalab.github.io/RAD/publication/papers/euromlsys2023.pdf
+bibkey:  "Yousefzadeh2023Profiling"
+bibauthor: "{Yousefzadeh-Asl-Miandoab, Ehsan and Robroek, Ties and T\\\"{o}z\\\"{u}n, P{\\i}nar}"
+bibtitle: "{Profiling and Monitoring Deep Learning Training Tasks}"
+bibbooktitle: "{Proceedings of the 4th Workshop on Machine Learning and Systems (EuroMLSys)}"
 bibyear: "{2023}"
-bibdoi: "{10.1145/3719159.3721223}"
-biburl: "{https://dl.acm.org/doi/10.1145/3719159.3721223}"
+bibdoi: "{10.1145/3578356.3592589}"
+biburl: "{https://dl.acm.org/doi/10.1145/3578356.3592589}"
 ---
