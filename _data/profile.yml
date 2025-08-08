@@ -1,0 +1,74 @@
+primary_name: "Ties Robroek"
+secondary_name: "Titus Theodorus Robroek"
+navbar_name: "Ties Robroek"
+
+positions:
+  - logo: /assets/images/badges/itu_small.png # Logo is optional
+    name: Postdoctoral Researcher in Resource-Aware Machine Learning
+
+email: "inquiries@trobroek.com"
+# cv_link: link-to-your-cv-file
+gscholar: xFmQpf4AAAAJ # This is an example, replace it with your own Google Scholar ID
+github: Sipondo
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+linkedin: ties-robroek-0b5683b9
+orcid: 0009-0006-3451-5602
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a postdoc at the <a href="https://itu.dk" target="_blank">IT University of Copenhagen</a> working on Resource-Aware Machine Learning. Before joining ITU, I studied at the Radboud University Nijmegen, where I graduated with a Masters degree in Data Science with a traineeship focussed on Massively-Parallel acceleration of Machine Learning (via graphics cards) at the University of Copenhagen.
+  </p>
+  <p>
+    My research focusses on improving accessibility and sustainability of Deep Learning. Notably, I am interested in how we can make reporting resource consumption a given instead of a nuisance. My current research focusses on improving the efficiency of data loading for training LLMs and convolutional networks. Besides Machine Learning, i am interested in the acceleration of algorithms and graphics via graphics cards. I did my Ph.D. in resource-aware data systems with <a href="https://www.pinartozun.com" target="_blank">Pınar Tozun</a> as my supervisor.
+  </p>
+  <p>
+    As a researcher in <a href="https://rad.itu.dk" target="_blank">RAD (Resource-Aware Data Science) I am part of the </a> which is part of the <a href="https://dasya.itu.dk" target="_blank">DASYA (Data-Intensive Systems and Applications)</a> group which is part of the <a href="https://itu.dk" target="_blank">IT University of Copenhagen</a>. I am also a member of the <a href="https://www.dasya.itu.dk/people/people.html#ties-robroek" target="_blank">DASYA people</a> and the <a href="https://en.itu.dk/Research/Research-Sections/Data-Systems-and-Robotics" target="_blank">DSAR (Data, Systems, and Robotics)</a> section.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.png
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+  - name: IT University of Copenhagen
+    logo: /assets/images/badges/ITU_small.png
+    position: PhD Student in Resource-Aware Machine Learning
+    date: Sep. 2021 - Aug. 2024
+  - name: Radboud University Nijmegen
+    logo: /assets/images/badges/radboud_small.png
+    position: MS. Data Science
+    date: Sep. 2017 - Jun. 2020
+  - name: Radboud University Nijmegen
+    logo: /assets/images/badges/radboud_small.png
+    position: BSc. Computing Science
+    date: Sep. 2013 - Jun. 2017
+
+experience:
+  - name: IT University of Copenhagen
+    logo: /assets/images/badges/ITU_small.png
+    position: Postdoctoral Researcher in Resource-Aware Machine Learning
+    date: Sep. 2024 - present
+  - name: IT University of Copenhagen
+    logo: /assets/images/badges/ITU_small.png
+    position: PhD Student in Resource-Aware Machine Learning
+    date: Sep. 2021 - Aug. 2024
+  - name: Hobbii
+    logo: /assets/images/badges/hobbii_small.jpg
+    position: Data Scientist
+    date: Jul. 2020 - Aug. 2021
+  - name: A.P. Møller - Mærsk
+    logo: /assets/images/badges/maersk_small.png
+    position: Data Scientist (Student Assistant)
+    date: May. 2019 - Oct. 2019
+  - name: Forecast
+    logo: /assets/images/badges/forecast_small.png
+    position: Data Scientist
+    date: Nov. 2018 - Apr. 2019
+
+awards:
+  - name: Best Presentation Award (DEEM 2023)
+    date: 2023
