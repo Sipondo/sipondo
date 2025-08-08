@@ -35,7 +35,7 @@ portrait_url: /assets/images/photos/portrait.png
 
 education:
   - name: IT University of Copenhagen
-    logo: /assets/images/badges/ITU_small.png
+    logo: /assets/images/badges/itu_small.png
     position: PhD Student in Resource-Aware Machine Learning
     date: Sep. 2021 - Aug. 2024
   - name: Radboud University Nijmegen
@@ -49,11 +49,11 @@ education:
 
 experience:
   - name: IT University of Copenhagen
-    logo: /assets/images/badges/ITU_small.png
+    logo: /assets/images/badges/itu_small.png
     position: Postdoctoral Researcher in Resource-Aware Machine Learning
     date: Sep. 2024 - present
   - name: IT University of Copenhagen
-    logo: /assets/images/badges/ITU_small.png
+    logo: /assets/images/badges/itu_small.png
     position: PhD Student in Resource-Aware Machine Learning
     date: Sep. 2021 - Aug. 2024
   - name: Hobbii
